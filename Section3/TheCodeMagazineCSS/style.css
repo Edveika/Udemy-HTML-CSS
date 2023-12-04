@@ -36,6 +36,24 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* # means its an ID. */
+/* ID can only be used ONCE! */
+/* IDs are not used in real world, they are not future proof */
+#copyright {
   font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+}
+
+/* . means its a class */
+/* Classes can be used multiple times */
+.related-authors {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.no-bullet-point {
+  list-style: none;
 }
