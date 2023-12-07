@@ -7,6 +7,18 @@ li {
   font-family: sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  color: #09aee0;
+}
+
+h4,
+p,
+li {
+  color: #444;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
@@ -56,4 +68,14 @@ li {
 
 .no-bullet-point {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #09aee0;
+  border-bottom: 5px solid #09aee0;
 }
