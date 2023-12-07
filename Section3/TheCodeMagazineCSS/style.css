@@ -79,3 +79,24 @@ aside {
   border-top: 5px solid #09aee0;
   border-bottom: 5px solid #09aee0;
 }
+
+/* Pseudo classes */
+/* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: greenyellow;
+}
+
+article p:last-child {
+  color: yellow;
+} /*
