@@ -8,12 +8,16 @@
 body {
   color: #444;
   font-family: sans-serif;
+  border-top: 10px solid #09aee0;
 }
 
+/* Due to default behaviour the height of the header will not be 80px */
+/* It will be 80 + 20 + 20 because of padding */
 .main-header {
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 aside {
@@ -21,6 +25,7 @@ aside {
   border-top: 5px solid #09aee0;
   border-bottom: 5px solid #09aee0;
   padding: 50px 0px;
+  width: 500px;
 }
 
 nav {
@@ -33,6 +38,11 @@ nav {
 
 article {
   margin-bottom: 60px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
 }
 
 h1,
