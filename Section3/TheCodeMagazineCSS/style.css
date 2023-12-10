@@ -40,6 +40,11 @@ article {
   margin-bottom: 60px;
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .post-image {
   width: 100%;
   height: auto;
@@ -92,7 +97,8 @@ li {
   margin-bottom: 10px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
