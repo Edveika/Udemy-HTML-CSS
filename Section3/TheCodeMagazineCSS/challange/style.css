@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.4; /* didnt add myself */
+    border: 5px solid black;
+}
+
+header {
+    text-align: center;
+    background-color: #e3e3e3;
+    text-transform: uppercase;
+}
+
+.to-cart {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.to-cart:hover {
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.price {
+    font-size: 23px; /* should be 24 */
+    font-weight: bold;
+}
+
+.shipping-price {
+    font-weight: bold;
+    font-size: 15px; /* should be 12 */
+    color: #8c8c8c;
+}
+
+/* Should have used list selection */
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/*Didnt add myself, did not notice the text has to be uppercased */
+.product-details {
+    text-transform: uppercase;
+}
+
+li {
+    list-style: square;
+}
