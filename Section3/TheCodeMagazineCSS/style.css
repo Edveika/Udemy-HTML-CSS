@@ -95,6 +95,8 @@ li {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  /* If added will not add line breaks to li elements */
+  /* display: inline; */
 }
 
 ul,
@@ -174,6 +176,26 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  /* -------------------- */
+  /* wont have any effect */
+  /* -------------------- */
+  /* background-color: red; */
+  /* margin: 20px;
+  padding: 20px;
+  display: block; */
+  /* -------------------- */
+}
+
+/* Chained pseudo class */
+/* Margin of the last nav bar link is 0px */
+nav a:link:last-child {
+  margin-right: 0px;
 }
 
 /* Resolving conflicts */
