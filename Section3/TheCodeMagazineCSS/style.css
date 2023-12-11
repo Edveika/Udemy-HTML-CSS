@@ -9,6 +9,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #09aee0;
+  position: relative;
 }
 
 /* Due to default behaviour the height of the header will not be 80px */
@@ -196,6 +197,16 @@ nav a:link {
 /* Margin of the last nav bar link is 0px */
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+
+  bottom: 50px;
+  right: 50px;
 }
 
 /* Resolving conflicts */
