@@ -53,6 +53,60 @@ header {
     width: 60%;
     border: 5px solid black;
     margin: 60px auto;
+    position: relative;
+}
+
+h1::before {
+    content: "SALE";
+    left: -35px;
+    top: -20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    font-size: 18px;
+    padding: 6px 5px;
+    letter-spacing: 3px;
+}
+
+.product-colors {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.colors {
+    display: inline-block;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-blue {
+    background-color: blue;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.color-brown {
+    background-color: brown;
+}
+
+div ul::after {
+    content: " ";
+    background-color: green;
 }
 
 /* Should have used list selection */
@@ -82,14 +136,13 @@ a:active {
     margin-bottom: 20px;
 }
 
+.product-detail-list {
+    margin-left: 50px;
+}
+
 li {
     list-style: square;
     margin-bottom: 10px;
-}
-
-ol,
-ul {
-    margin-left: 50px;
 }
 
 p {
