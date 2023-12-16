@@ -1,0 +1,283 @@
+/* IMPORTANT: disable default margins so i can style the site myself  */
+/* Called: Global Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #09aee0;
+  position: relative;
+}
+
+/* Due to default behaviour the height of the header will not be 80px */
+/* It will be 80 + 20 + 20 because of padding */
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 60px;
+  height: 80px;
+  text-align: center;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #09aee0;
+  border-bottom: 5px solid #09aee0;
+  padding: 50px 0px;
+  width: 500px;
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+} 
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #09aee0;
+}
+
+/* Floats */
+.author {
+  /* padding-left: 80px; */
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.author-image {
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  /* color: red; */
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  /* Good place to use inline block */
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  right: -30px;
+  top: -10px;
+  /* top: 0px; */
+}
+
+h4,
+p,
+li {
+  color: #444;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* If added will not add line breaks to li elements */
+  /* display: inline; */
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+/* # means its an ID. */
+/* ID can only be used ONCE! */
+/* IDs are not used in real world, they are not future proof */
+#copyright {
+  font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+}
+
+/* . means its a class */
+/* Classes can be used multiple times */
+.related-authors {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.no-bullet-point {
+  list-style: none;
+}
+
+/* Pseudo classes */
+/* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: greenyellow;
+}
+
+article p:last-child {
+  color: yellow;
+}
+
+This wont work:
+article p:first-child {
+  color: yellow;
+} &*/
+
+/* Styling links */
+a:link {
+  color: #09aee0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #09aee0;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orangered;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  /* -------------------- */
+  /* wont have any effect */
+  /* -------------------- */
+  /* background-color: red; */
+  /* margin: 20px;
+  padding: 20px;
+  display: block; */
+  /* -------------------- */
+}
+
+/* Chained pseudo class */
+/* Margin of the last nav bar link is 0px */
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+
+  bottom: 50px;
+  right: 50px;
+}
+
+/* Resolving conflicts */
+/* IDs - first */
+/* Biggest priority because its an ID */
+/* #copyright {
+  color: red;
+} */
+
+/* Classes - second */
+/* Second on the priority list because its the last class aplied */
+/* .text {
+  color: yellow;
+} */
+
+/* Third on the priority list because its the first class applied */
+/* .copyright {
+  color: blue;
+} */
+
+/* Last on the selector priority list because it uses element selector */
+/* footer p {
+  color: green !important;
+} */
