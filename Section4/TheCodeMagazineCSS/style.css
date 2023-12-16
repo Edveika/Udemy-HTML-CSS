@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,14 +28,13 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #09aee0;
   border-bottom: 5px solid #09aee0;
-  padding: 50px 0px;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 nav {
   font-size: 18px;
   text-align: center;
-} 
+}
 
 .post-header {
   margin-bottom: 30px;
@@ -166,6 +166,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 p {
@@ -208,6 +209,11 @@ li:last-child {
 .related-authors {
   font-size: 18px;
   font-weight: bold;
+}
+
+.related {
+  list-style: none;
+  margin-left: 0;
 }
 
 .no-bullet-point {
