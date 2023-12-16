@@ -15,10 +15,11 @@ body {
 /* Due to default behaviour the height of the header will not be 80px */
 /* It will be 80 + 20 + 20 because of padding */
 .main-header {
+  /* background-color: red; */
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
   text-align: center;
 }
 
@@ -44,7 +45,8 @@ article {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
+  /* width: 1200px; */
   margin: 0 auto;
 }
 
@@ -57,6 +59,36 @@ h1,
 h2,
 h3 {
   color: #09aee0;
+}
+
+/* Article is on the left and the aside container is on the right */
+article {
+  /* width: 900px; */
+  width: 78%;
+  float: left;
+}
+
+aside {
+  /* width: 300px; */
+  width: 20%;
+  float: right;
+}
+
+/* Clears the float, bevause footer has to be at the bottom */
+footer {
+  clear: both;
+}
+
+/* CLearing floats to fix height collapse */
+/* .clear {
+  clear: both;
+} */
+
+/* Clear fix hack */
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 /* Floats */
