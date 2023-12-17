@@ -43,11 +43,24 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 30px;
+        gap: 10px;
       }
 
       .el {
-        /* margin-right: 10px; */
+        /* 
+        DEFAULTS:
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; 
+        */
+
+        /* flex-basis: 200px; */
+        /* Disallows shrinking, elements will always be of selected width */
+        flex-shrink: 0;
+        /* Will make elements fill all of the width */
+        flex-grow: 1;
+
+        flex: 1;
       }
 
       /* Puts the 1st item at the top of the container */
@@ -74,8 +87,8 @@
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
       <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
