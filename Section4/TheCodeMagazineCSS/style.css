@@ -354,3 +354,20 @@ nav a:link:last-child {
   margin-bottom: 5px;
   display: block;
 }
+
+.flex-container {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+  /* Default property is stretch, start will put everything at the top without stretching */
+  align-items: start;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+}
