@@ -75,6 +75,12 @@ h1::before {
   width: 60px;
 }
 
+.color-picker {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
 .product-colors {
   margin-top: 30px;
   height: 30px;
@@ -83,8 +89,7 @@ h1::before {
 }
 
 .colors {
-  display: inline-block;
-  margin-right: 5px;
+  list-style: none;
   height: 30px;
   width: 30px;
 }
@@ -111,10 +116,6 @@ h1::before {
 
 .color-brown {
   background-color: brown;
-}
-
-.color-picker {
-  margin-top: 20px;
 }
 
 /* Should have used list selection */
