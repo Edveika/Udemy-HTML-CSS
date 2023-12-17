@@ -36,13 +36,21 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 30px;
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* Width of columns */
+        grid-template-columns: 100px 100px 100px 100px;
+        /* Height of rows */
+        grid-template-rows: 300px 200px;
+        column-gap: 40px;
+        row-gap: 100px;
       }
 
       .container--2 {
+        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
