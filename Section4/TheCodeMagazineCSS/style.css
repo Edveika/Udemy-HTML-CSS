@@ -19,7 +19,7 @@ body {
   /* background-color: red; */
   background-color: #f7f7f7;
   padding: 20px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
   text-align: center;
   display: flex;
@@ -44,7 +44,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .container {
@@ -355,19 +355,50 @@ nav a:link:last-child {
   display: block;
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   gap: 60px;
   margin-bottom: 60px;
-  /* Default property is stretch, start will put everything at the top without stretching */
   align-items: start;
-}
+} */
 
-article {
+/* article {
   flex: 1;
   margin-bottom: 0;
 }
 
 aside {
   flex: 0 0 300px;
+} */
+
+/* CSS Grid layour */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  /* Margins should be handeled by the CSS grid */
+  /* Gap between horizontal elements */
+  column-gap: 75px;
+  /* Gap between vertical elements */
+  row-gap: 60px;
+}
+
+.main-header {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+article {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+aside {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+}
+
+footer {
+  grid-column: 1/-1;
+  grid-row: 3;
 }
