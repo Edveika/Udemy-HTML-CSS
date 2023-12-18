@@ -207,3 +207,34 @@ p {
   height: 250px;
   width: 250px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+header {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+img {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.options-container {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.details-container {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+button {
+  grid-column: 1/-1;
+  grid-row: 3;
+}
