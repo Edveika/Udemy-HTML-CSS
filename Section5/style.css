@@ -26,7 +26,7 @@ body {
   /* Will use Inter font, sans-serif if there is no inter font */
   font-family: "Inter", sans-serif;
   color: #343a40;
-  border-bottom: 10px  solid #087f5b;
+  border-bottom: 10px solid #087f5b;
 }
 
 .container {
@@ -61,7 +61,8 @@ h2 {
   display: inline-block;
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
   background-color: #099268;
 }
 
@@ -113,7 +114,11 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
