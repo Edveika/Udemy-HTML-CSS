@@ -120,6 +120,11 @@ img {
   width: 32px;
   height: 32px;
   margin-bottom: 16px;
+  border-radius: 100%;
+  background-color: rgba(156, 255, 194, 0.5);
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
 }
 
 .features-title {
