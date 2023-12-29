@@ -9,7 +9,7 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * Flexbox
   * CSS Grid and Flexbox
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
-* Chairs shop home page
+* [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
 
 # Credits
 
