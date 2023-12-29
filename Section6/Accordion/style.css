@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.accordion {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.item {
+
+}
+
+.number, .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: green;
+}
+
+.title {
+
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: green;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box ul {
+  margin-left: 18px;
+  color: #868e96;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container p:first {
+  color: black;
+}
