@@ -28,19 +28,11 @@ body {
   align-items: center;
 }
 
-.hidden-box {
-  grid-column: 2;
-  display: none;
-}
-
 .number,
 .title {
   font-size: 24px;
   font-weight: 600;
   /* color: green; */
-}
-
-.title {
 }
 
 .number {
@@ -51,6 +43,13 @@ body {
   width: 24px;
   height: 24px;
   stroke: green;
+}
+
+/* Hidden box is not displayed by default */
+
+.hidden-box {
+  grid-column: 2;
+  display: none;
 }
 
 .hidden-box p {
@@ -66,6 +65,8 @@ body {
   gap: 12px;
 }
 
+/* OPEN STATE */
+
 .item-open {
   border-top: 3px solid green;
 }
@@ -74,7 +75,7 @@ body {
 .item-open .number {
   color: green;
 }
-
+/* Hidden box gets displayed when item-open class is used */
 .item-open .hidden-box {
   display: block;
 }
