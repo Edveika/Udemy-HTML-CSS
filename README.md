@@ -1,3 +1,5 @@
+<img src="https://www.aacpl.net/sites/default/files/2021-11/udemy-home-page.jpg">
+
 # 🏫 Udemy-HTML-CSS
 
 Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) on HTML, CSS and Website design.
