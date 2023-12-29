@@ -4,7 +4,7 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 
 # Projects
 
-* Challanges
+* [Challanges](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md)
   * Initial
   * Flexbox
   * CSS Grid and Flexbox
