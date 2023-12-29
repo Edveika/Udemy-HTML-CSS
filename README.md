@@ -13,6 +13,8 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
 * [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
 
+Initial/Flexbox only challange code can be found via commit history.
+
 # 🤝 Credits
 
 Jonas Schmedtman for a great course!
