@@ -15,11 +15,18 @@ body {
   width: 800px;
   margin: 100px auto;
   border-radius: 8px;
-  padding: 32px;
+  /* padding: 32px;
   padding-left: 86px;
+  padding-right: 48px; */
+  /* 
+  TOP, RIGHT, BOTTOM, LEFT
+  from top to clock wise
+  */
+  padding: 32px 48px 32px 86px;
   display: flex;
   align-items: center;
   gap: 86px;
+  position: relative;
 }
 
 img {
@@ -47,5 +54,59 @@ img {
   color: #c3fae8;
 }
 
+.btn {
+  border: none;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* top works in relation to PARENT */
+  top: 50%;
+}
+
+.btn-left {
+  left: 0;
+  /* transform works in relation to itself */
+  transform: translate(-50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  /* transform works in relation to itself */
+  transform: translate(50%, -50%);
+}
+
 .button-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.nav {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot-active {
+  background-color: #087f5b;
 }
