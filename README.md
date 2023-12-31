@@ -17,7 +17,7 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * [Carousel](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/carousel.md)
   * [HeroSection](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/herosection.md)
   * [Pagination](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/pagination.md)
-  * Table
+  * [Table](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/table.md)
 * Layouts
   * WebApp Layout
 * [OmniFood.dev](https://github.com/Edveika/OmniFood.dev) - the biggest project of the course
