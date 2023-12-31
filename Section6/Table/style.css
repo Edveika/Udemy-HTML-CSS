@@ -8,4 +8,35 @@ body {
   font-family: "inter", sans-serif;
   color: #343a40;
   line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-size: 18px;
+  margin-top: 100px;
+  width: 800px;
+  /* border: 1px solid #343a40; */
+  /* Two borders next to each other will be put into a single border */
+  border-collapse: collapse;
+}
+
+th, td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #087f5b;
+  color: #e6fcf5;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }
