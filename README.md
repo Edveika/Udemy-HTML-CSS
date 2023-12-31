@@ -12,6 +12,15 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * CSS Grid and Flexbox 
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
 * [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
+* Website components
+  * Accordion
+  * Carousel
+  * HeroSection
+  * Pagination
+  * Table
+* Layouts
+  * WebApp Layout
+* OmniFood.dev - the biggest project of the course
 
 Initial/Flexbox only challange code can be found via commit history.
 
