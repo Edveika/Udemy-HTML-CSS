@@ -13,7 +13,7 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
 * [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
 * Website components
-  * Accordion
+  * [Accordion](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/accordion.md)
   * Carousel
   * HeroSection
   * Pagination
