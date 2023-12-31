@@ -20,7 +20,7 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * Table
 * Layouts
   * WebApp Layout
-* OmniFood.dev - the biggest project of the course
+* [OmniFood.dev](https://github.com/Edveika/OmniFood.dev) - the biggest project of the course
 
 Initial/Flexbox only challange code can be found via commit history.
 
