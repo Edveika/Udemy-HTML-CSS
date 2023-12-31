@@ -15,8 +15,8 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 * Website components
   * [Accordion](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/accordion.md)
   * [Carousel](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/carousel.md)
-  * HeroSection
-  * Pagination
+  * [HeroSection](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/herosection.md)
+  * [Pagination](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/pagination.md)
   * Table
 * Layouts
   * WebApp Layout
