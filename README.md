@@ -18,11 +18,10 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * [HeroSection](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/herosection.md)
   * [Pagination](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/pagination.md)
   * [Table](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/table.md)
-* Layouts
-  * [WebApp Layout](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/webapplayout.md)
+* [WebApp Layout](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/webapplayout.md)
 * [OmniFood.dev](https://github.com/Edveika/OmniFood.dev) - the biggest project of the course
 
-Initial/Flexbox only challange code can be found via commit history.
+⚠️ Initial/Flexbox only challange code can be found via commit history.
 
 # 🤝 Credits
 
