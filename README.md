@@ -6,8 +6,8 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 
 # 🏗️ Projects
 
-* [Shoe site challanges](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md)
-  * Initial
+* [Shoe shop site challange](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md)
+  * Initial version
   * Flexbox version
   * CSS Grid and Flexbox  version
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
