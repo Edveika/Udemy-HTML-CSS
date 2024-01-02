@@ -6,10 +6,10 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 
 # 🏗️ Projects
 
-* [Challanges](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md) - CSS Grid and Flexbox version
+* [Shoe site challanges](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md)
   * Initial
-  * Flexbox
-  * CSS Grid and Flexbox 
+  * Flexbox version
+  * CSS Grid and Flexbox  version
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
 * [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
 * Website components
