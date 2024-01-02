@@ -26,4 +26,4 @@ Initial/Flexbox only challange code can be found via commit history.
 
 # 🤝 Credits
 
-Jonas Schmedtman for a great course!
+Jonas Schmedtmann for a great course!
