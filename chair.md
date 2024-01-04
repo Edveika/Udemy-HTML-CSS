@@ -3,6 +3,8 @@
 ![Screenshot_20231229_154401](https://github.com/Edveika/Udemy-HTML-CSS/assets/113787144/6b0dd229-a838-4581-a843-a193fcfbf524)
 ![Screenshot_20231229_154433](https://github.com/Edveika/Udemy-HTML-CSS/assets/113787144/b6438321-9763-48f1-a079-60a7c0f00854)
 
+# 📜 Description
+
 * Each section is built using a CSS Grid that has 3 columns.
 
 ```css
@@ -13,7 +15,7 @@
 }
 ```
 
-* Testimonials textbox uses 2 Grid cells, 1 is left for the image
+* Testimonials text box uses 2 Grid cells, 1 is left for the image
 
 ```css
 .testimonial-box {
