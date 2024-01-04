@@ -2,6 +2,8 @@
 
 ![Screenshot_20231229_154622](https://github.com/Edveika/Udemy-HTML-CSS/assets/113787144/6079109e-94c5-4888-9884-3f7a4202a29a)
 
+# 📜 Description
+
 * Layout is built using CSS Grid
 
 ```css
@@ -51,3 +53,7 @@ h1::before {
   width: 60px;
 }
 ```
+
+# 🕰️ Older versions
+
+Initial/Flexbox Challange code can be found via commit history or Sections 2 and 3.
