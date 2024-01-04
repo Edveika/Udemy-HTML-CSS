@@ -18,7 +18,7 @@
 }
 ```
 
-* Yellow top sign is a pseudo element with absolute positioning
+* Yellow TOP sign is a pseudo element with absolute positioning
 
 ```css
 h2::after {
@@ -35,7 +35,7 @@ h2::after {
 }
 ```
 
-* Author element is built using Flexbox
+* Author component is built using Flexbox
 
 ```css
 .author-container {
@@ -45,7 +45,7 @@ h2::after {
 }
 ```
 
-* Layout is built using CSS Grid. Recommendeds size is 300 pixels, the main page takes the rest of the empty space.
+* Layout is built using CSS Grid. Recommended articles container size is 300 pixels, the main page takes the rest of the empty space.
 
 ```css
 .container {
