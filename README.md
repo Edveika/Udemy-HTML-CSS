@@ -7,9 +7,6 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 # 🏗️ Projects
 
 * [Shoe shop site challange](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/challange.md)
-  * Initial version
-  * Flexbox version
-  * CSS Grid and Flexbox  version
 * [HTML blog site](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/blog.md)
 * [Chair shop home page](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/chair.md)
 * Website components
@@ -20,8 +17,6 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
   * [Table](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/table.md)
 * [WebApp Layout](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/webapplayout.md)
 * [OmniFood.dev](https://github.com/Edveika/OmniFood.dev) - the biggest project of the course
-
-⚠️ Initial/Flexbox only challange code can be found via commit history.
 
 # 🤝 Credits
 
