@@ -18,6 +18,10 @@ Taking Jonas Schmedtmann's [Udemy course](https://www.udemy.com/course/design-an
 * [WebApp Layout](https://github.com/Edveika/Udemy-HTML-CSS/blob/main/webapplayout.md)
 * [OmniFood.dev](https://github.com/Edveika/OmniFood.dev) - the biggest project of the course
 
+# 📄 Certificate
+
+![20240125_234947](https://github.com/Edveika/Udemy-HTML-CSS/assets/113787144/ab26066e-61d3-45b1-a0d0-8d647e59eaa6)
+
 # 🤝 Credits
 
 Jonas Schmedtmann for a great course!
